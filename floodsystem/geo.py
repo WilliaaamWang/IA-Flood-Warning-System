@@ -20,3 +20,14 @@ def stations_by_distance(stations, p):
     list_tuple = sorted_by_key(unsorted_list_tuple, 1)
     return list_tuple
 
+def stations_within_radius(stations, centre, r):
+    """Given a list of stations, a coordinate and a specified radius around the coordinate,
+     return a list of stations within the radius in alphabetical order"""
+    radius_list = []
+    for station in stations:
+        coord =  station.coord
+        distance = haversine(centre, coord)
+        if distance <= r:
+            radius_list.append(station.name)
+    radius_list.sort()
+    return radius_list
