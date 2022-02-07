@@ -9,6 +9,6 @@ to start the activity.
 
 Hi :)
 
-Distribution of Work:
-Ruoyao Wang: B, C, D
+Distribution of Work:   
+Ruoyao Wang: B, C, D    
 Luran Wang: E, F
