@@ -8,3 +8,6 @@ https://cued-partia-flood-warning.readthedocs.io/. Fork this repository
 to start the activity.
 
 Hi :)
+Distribution of Work:
+Ruoyao Wang: B, C, D
+Luran Wang: E, F
