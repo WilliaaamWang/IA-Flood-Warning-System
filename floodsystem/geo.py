@@ -39,7 +39,7 @@ def rivers_with_station(stations):
     river_set = set()
     for station in stations:
         river_set.add(station.river)
-    river_set = sorted(river_set)
+    river_set = set(sorted(river_set))
     return river_set
 
 def stations_by_river(stations):
