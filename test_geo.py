@@ -21,7 +21,8 @@ def test_stations_within_radius():
 def test_rivers_with_station(): 
     stations = build_station_list()
     test = geo.rivers_with_station(stations)
-    assert type(test) == set
+    assert type(test) == list
+    #Sets cannot be indexed/subscripted so list output is needed
 
 def test_stations_by_river(): 
     stations = build_station_list()
