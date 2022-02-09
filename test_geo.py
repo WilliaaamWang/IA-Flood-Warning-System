@@ -31,5 +31,5 @@ def test_stations_by_river():
 
 def test_rivers_by_station_number(): 
     stations = build_station_list()
-    test = geo.rivers_by_station_number(stations, 1)
+    test = geo.rivers_by_station_number(stations, 9)
     assert type(test) == list
