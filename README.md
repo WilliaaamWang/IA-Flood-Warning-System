@@ -8,5 +8,6 @@ https://cued-partia-flood-warning.readthedocs.io/. Fork this repository
 to start the activity.
 
 Distribution of Work:   
-Ruoyao Wang: B,  C,  D    
-Luran Wang: E,  F
+Ruoyao Wang: 1B,  1C,  1D; 2B, 2C    
+Luran Wang: 1E,  1F; 2E, 2F, 2G
+
