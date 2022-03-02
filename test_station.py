@@ -36,3 +36,6 @@ def test_typical_range_consistent():
 
 def test_inconsistent_typical_range_stations():
     assert type(inconsistent_typical_range_stations(stations)) == list
+test_typical_range_consistent()
+test_inconsistent_typical_range_stations()
+print(done)
